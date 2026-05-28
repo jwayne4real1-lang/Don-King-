@@ -1,0 +1,14 @@
+{
+  "name": "don-king-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "stripe": "^15.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
