@@ -1,14 +1,24 @@
 {
-  "name": "don-king-server",
+  "name": "don-king-battles",
   "version": "1.0.0",
-  "description": "",
+  "description": "AI Poetry Battles with Live Voting",
   "main": "server.js",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "stripe": "^15.0.0"
-  },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step needed'",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": ["battles", "poetry", "voting", "ai"],
+  "author": "jwayne4real1-lang",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "stripe": "^12.0.0"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
