@@ -1,9 +1,7 @@
-# render.yaml
 services:
   - type: web
     name: don-king-battles
     env: node
-    
     plan: free
     buildCommand: npm install
     startCommand: node server.js
